@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon Resident</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@latest/dist/vanilla-tilt.min.js"></script> <!-- VanillaTilt CDN -->
+  <script defer src="app.js"></script> <!-- Your custom JavaScript -->
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <a href="#"  class="logo">
+        <img src="./images/logo.jpg" alt="Horizon Resident Logo">
+    </a>
+    <nav class="navbar">
+      <a href="#home">Home Page</a>
+      <a href="#about">About Us</a>
+      <a href="#app">App</a>
+    </nav>
+  </header>
+
+
+  <!-- Home Section -->
+  <section id="home" class="first-section parallax">
+    <div class="drone"></div> <!-- Drone animation -->
+    <h1 id="first-title" class="hidden">The FIRST Residence</h1>
+    <p id="first-paragraph" class="hidden">that relies on DRONE SECURITY</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="parallax">
+    <div class="heading-box">
+      <h1 class="hidden">Drone Security?</h1>
+    </div>
+    <!-- Logos Section -->
+    <div class="logos-section hidden">
+      <div class="logos-box" data-tilt>
+        <img src="images/cctv-icon.png" alt="CCTV Icon">
+      </div>
+      <div class="logos-box" data-tilt>
+        <img src="images/server-icon.png" alt="Server Icon">
+      </div>
+      <div class="logos-box" data-tilt>
+        <img src="images/phone-icon2.png" alt="Phone Icon">
+      </div>
+      <div class="logos-box" data-tilt>
+        <img src="images/navi-icon.png" alt="Navigation Icon">
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Box Section -->
+  <section id="app" class="parallax">
+    <div  class="content-box">
+      <h1 class="hidden">Horizon Estate's App</h1>
+      <p class="hidden">An app built specifically for Drone-Security Housing. This app will be accessible to Guards and its Residence (app sneak peak). 
+        </p>
+    </div>
+
+    <div id="apk">
+        <img src="./images/appp.jpg" alt="">
+    </div>
+  </section>
+
+
+  <!-- Footer Section (optional) -->
+  <footer class="footer">
+    <p>&copy; 2024 Horizon Resident. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
